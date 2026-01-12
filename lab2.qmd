@@ -10,38 +10,40 @@ format:
 
 ## Lab Assignment Instructions
 
-In this course, we are using a labor-based grading approach. This means that each task in the lab is graded based on completion rather than evaluation of quality. If a question is completed according to the specifications provided such as meeting the word limit, following the required format, or staying within the allotted time you will receive full credit for that question. 
+In this course, we are using a labor-based grading approach. This means that each task in the lab is graded based on completion rather than evaluation of quality. If a question is completed according to the specifications provided such as meeting the word limit, following the required format, or staying within the allotted time you will receive full credit for that question.
 
 When submitting your lab, please be sure to:
 
-- Include a link to your GitHub repository containing your work as well as a link to your published blog post. 
+-   Include a link to your GitHub repository containing your work as well as a link to your published blog post.
 
-- Submit a the `.qmd` file along with a rendered version (either `.html` or `.pdf`) of your lab to Gradescope.
+    <https://github.ubc.ca/mds-2025-26/DSCI_542_lab2_farkasv>
 
-- On Canvas, submit a link to your blog post for peer review. 
+-   Submit a the `.qmd` file along with a rendered version (either `.html` or `.pdf`) of your lab to Gradescope.
+
+-   On Canvas, submit a link to your blog post for peer review.
 
 ## Question 1: Understand your audience
 
 rubric={completion:5}
 
-In this lab, you will be tasked to writing a data science blog based on the topic you chose in lab 1. 
+In this lab, you will be tasked to writing a data science blog based on the topic you chose in lab 1.
 
 As mentioned in Lecture 2, an audience persona is a brief written description of a specific person in your target audience, who might be real or imagined. It should include the following information about the person:
 
-- Their **experience**. How much experience do they have with your subject, and of what kind?
-- Their **motivation**. Why do they want to learn about this subject? If they have any specific goals, what are they?
+-   Their **experience**. How much experience do they have with your subject, and of what kind?
+-   Their **motivation**. Why do they want to learn about this subject? If they have any specific goals, what are they?
 
 For example, here are three personas for potential audiences of an explanation of quantum computing:
 
-- Mike is a third-grade student. He has fairly little experience with any computers at all, let alone quantum computers. But he suspects that computers might be able to help his with tough homework problems, and wants to know if this is true of quantum computers.
-- Nadine is a fifteen-year-old high school student. She is familiar with computers; most commonly she uses her iPhone to socialize, study, and take photoes. She has never heard of quantum computers before, but likes to impress her friends with cool facts about things she learns.
-- Alex is an undergraduate computer science student interested in machine learning and artificial intelligence. They taken courses in chemistry and physics, and knows the basics of how quantum computing differs from classical computing. They are curious about the kinds of problems that quantum computing could be used to solve, and how soon the technology might become commercially available.
+-   Mike is a third-grade student. He has fairly little experience with any computers at all, let alone quantum computers. But he suspects that computers might be able to help his with tough homework problems, and wants to know if this is true of quantum computers.
+-   Nadine is a fifteen-year-old high school student. She is familiar with computers; most commonly she uses her iPhone to socialize, study, and take photoes. She has never heard of quantum computers before, but likes to impress her friends with cool facts about things she learns.
+-   Alex is an undergraduate computer science student interested in machine learning and artificial intelligence. They taken courses in chemistry and physics, and knows the basics of how quantum computing differs from classical computing. They are curious about the kinds of problems that quantum computing could be used to solve, and how soon the technology might become commercially available.
 
 Write an audience persona for the target reader of your blog that is **3-5 sentences long**. Additionally, propose a **minimum of 3 different titles** for your blog. During the lab, we encourage you to exchange the audience persona, the titles, and the abstract with your peers and get their initial feedback.
 
 ## Question 2: Write a data science blog
 
-rubric={completion: 30} 
+rubric={completion: 30}
 
 ### Guideline to get started
 
@@ -51,43 +53,43 @@ I highly recommend you check out this [guideline](https://towardsdatascience.com
 
 There are many different types of blog posts that can be written in the field of data science. Some common types of blog posts include:
 
-- **Tutorials**: These posts provide step-by-step instructions or guidance on how to perform a specific task in data science, such as using a machine learning algorithm or creating a data visualization using a specific package/language.
-- **Explanations**: These posts aim to explain complex concepts or techniques in data science in a way that is easy for a general audience to understand. They might include examples or case studies to illustrate the concept or technique.
-- **News and analysis**: These posts discuss recent news or research in the field of data science, and provide analysis or commentary on the implications or significance of the news or research.
-- **Personal experiences**: These posts share the experiences of a data scientist or student learning data science, and might include stories about challenges and successes, as well as tips and advice for others interested in pursuing a career in data science.
-- **Comparisons and contrasts**: These posts compare and contrast different tools, approaches, or concepts in data science, and might include pros and cons or recommendations for when to use each option.
+-   **Tutorials**: These posts provide step-by-step instructions or guidance on how to perform a specific task in data science, such as using a machine learning algorithm or creating a data visualization using a specific package/language.
+-   **Explanations**: These posts aim to explain complex concepts or techniques in data science in a way that is easy for a general audience to understand. They might include examples or case studies to illustrate the concept or technique.
+-   **News and analysis**: These posts discuss recent news or research in the field of data science, and provide analysis or commentary on the implications or significance of the news or research.
+-   **Personal experiences**: These posts share the experiences of a data scientist or student learning data science, and might include stories about challenges and successes, as well as tips and advice for others interested in pursuing a career in data science.
+-   **Comparisons and contrasts**: These posts compare and contrast different tools, approaches, or concepts in data science, and might include pros and cons or recommendations for when to use each option.
 
 Overall, there are many different types of blog posts that can be written in data science, and the type of post will depend on the goals and audience of the blog.
 
-For your inspiration, this is a blog post that Nico Van den Hooff, a MDS alumni, wrote last year  
+For your inspiration, this is a blog post that Nico Van den Hooff, a MDS alumni, wrote last year\
 [Exploring the Most Popular Machine Learning and Deep Learning GitHub Repositories](https://medium.com/towards-data-science/exploring-the-most-popular-machine-learning-and-deep-learning-github-repositories-90b9ecf12be7)
 
 ### Length
 
-For this assignment, we suggest aiming for a word count of around 1200 (+ or - 300) words, not including code, captions, references, etc. Please consider the amount of time it will take your audience to read your post and keep this in mind as you plan and write your content. We recommend creating a brief outline for the blog first before diving in. 
+For this assignment, we suggest aiming for a word count of around 1200 (+ or - 300) words, not including code, captions, references, etc. Please consider the amount of time it will take your audience to read your post and keep this in mind as you plan and write your content. We recommend creating a brief outline for the blog first before diving in.
 
 ### How to write your blog
 
-In this question, you are asked to write your blog using Quarto. 
+In this question, you are asked to write your blog using Quarto.
 
 Step 1: Login to Github
 
-Step 2: Create your [Quarto Blog](https://quarto.org/docs/websites/website-blog.html). 
+Step 2: Create your [Quarto Blog](https://quarto.org/docs/websites/website-blog.html).
 
 Step 3: Start writing and finish! Push/publish your changes, and .
 
-Step 4: Submit the blog's outline as well as **a link to your blog**. Your blog can be published either via [Quarto Pub](https://quarto.org/docs/publishing/quarto-pub.html) or [GitHub Pages](https://docs.github.com/en/pages). 
+Step 4: Submit the blog's outline as well as **a link to your blog**. Your blog can be published either via [Quarto Pub](https://quarto.org/docs/publishing/quarto-pub.html) or [GitHub Pages](https://docs.github.com/en/pages).
 
 Your blog will be evaluated for completion based on the word count as well as the link to your blog functioning as expected.
 
 ### Some prompts to get you started (Optional)
 
-- What is the main topic or concept you want to write about in your blog post? What makes it interesting or important to your audience?
-- What type of data science blog do you want to write? (see different types above)
-- What are the key points or ideas you want to include in your blog post? How can you organize these points to create a clear and coherent structure for your post?
-- How can you use examples or case studies to illustrate the concepts or techniques you are discussing in your blog post? What are some real-world applications of the topic you are writing about?
-- How can you make your blog post engaging and interactive for your audience? What types of media or interactive elements can you include to make your post more interesting and interactive?
-- How can you conclude your blog post in a way that leaves a lasting impression on your readers? What are the main takeaways you want your readers to remember after reading your post?
+-   What is the main topic or concept you want to write about in your blog post? What makes it interesting or important to your audience?
+-   What type of data science blog do you want to write? (see different types above)
+-   What are the key points or ideas you want to include in your blog post? How can you organize these points to create a clear and coherent structure for your post?
+-   How can you use examples or case studies to illustrate the concepts or techniques you are discussing in your blog post? What are some real-world applications of the topic you are writing about?
+-   How can you make your blog post engaging and interactive for your audience? What types of media or interactive elements can you include to make your post more interesting and interactive?
+-   How can you conclude your blog post in a way that leaves a lasting impression on your readers? What are the main takeaways you want your readers to remember after reading your post?
 
 ## Peer Feedback (to be completed next week)
 
@@ -97,9 +99,9 @@ Peer review allows you to receive feedback on your writing from multiple peers, 
 
 Read the blog posts carefully, paying attention to the content, organization, and style of the writing. Consider the following questions as you review:
 
-- Is the content of the blog post accurate and well-researched?
-- Is the structure of the blog post clear and logical?
-- Are the ideas in the blog post effectively communicated and easy to understand?
-- Is the writing style of the blog post engaging and appropriate for the audience?
+-   Is the content of the blog post accurate and well-researched?
+-   Is the structure of the blog post clear and logical?
+-   Are the ideas in the blog post effectively communicated and easy to understand?
+-   Is the writing style of the blog post engaging and appropriate for the audience?
 
 Write a review for each of the blog posts, addressing the above questions and any other issues you feel are relevant. Use specific examples from the posts to support your points.
