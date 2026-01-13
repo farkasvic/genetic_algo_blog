@@ -41,13 +41,19 @@ For example, here are three personas for potential audiences of an explanation o
 
 Write an audience persona for the target reader of your blog that is **3-5 sentences long**. Additionally, propose a **minimum of 3 different titles** for your blog. During the lab, we encourage you to exchange the audience persona, the titles, and the abstract with your peers and get their initial feedback.
 
--------------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 **Persona:**
 
-Taylor is an 18-year-old high school student with an interest in studying data science. They've taken all upper year core science and math courses in order to apply for university and is familiar with most fundamentals in biology as well as some basic computing terminology such as 'algorithms' and 'optimization'. They have not explored any data science topics in depth but are interested in learning more to see if that major would suit them.
+Taylor is a second-year undergraduate university student studying Data Science/Computer Science. They've learned about the fundamentals of Machine Learning, including concepts such as hyper-parameter tuning and optimization, and have taken all first year course requirements for a major in the Faculty of Science, like biology and chemistry. Most of the programming they've done has been within labs and classes and are interested in learning about more experimental/non-traditional topics within the field of Data Science and Programming. They are hoping to learn how to apply their knowledge practically rather than just reading a scientific report on theoretical applications.
 
 **Titles:**
+
+Survival of the Fittest (Model): Optimizing with Genetic Algorithms
+
+Using Genetic Algorithms for Hyper-parameter Tuning and Selection: A Tutorial
+
+Natural Alternatives to Standard Hyperparameter Optimization
 
 ## Question 2: Write a data science blog
 
