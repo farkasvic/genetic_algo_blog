@@ -18,6 +18,8 @@ When submitting your lab, please be sure to:
 
     <https://github.ubc.ca/mds-2025-26/DSCI_542_lab2_farkasv>
 
+-   <https://farkasvic.quarto.pub/survival-of-the-fittest-(model-optimizing-with-genetic-algorithms/>
+
 -   Submit a the `.qmd` file along with a rendered version (either `.html` or `.pdf`) of your lab to Gradescope.
 
 -   On Canvas, submit a link to your blog post for peer review.
