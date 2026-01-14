@@ -448,15 +448,15 @@ window.Quarto = {
 <span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    population <span class="op">=</span> run_generation(population)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>--- Generation 1 ---
-Best: 0.9442 | Avg: 0.5635 | Best Params: {'n_estimators': 50, 'max_depth': 15, 'min_samples_split': 2, 'criterion': 'gini'}
+Best: 0.8885 | Avg: 0.7120 | Best Params: {'n_estimators': 10, 'max_depth': 20, 'min_samples_split': 5, 'criterion': 'entropy'}
 --- Generation 2 ---
-Best: 0.9442 | Avg: 0.8534 | Best Params: {'n_estimators': 50, 'max_depth': 15, 'min_samples_split': 2, 'criterion': 'gini'}
+Best: 0.8885 | Avg: 0.8835 | Best Params: {'n_estimators': 10, 'max_depth': 20, 'min_samples_split': 5, 'criterion': 'entropy'}
 --- Generation 3 ---
-Best: 0.9442 | Avg: 0.9281 | Best Params: {'n_estimators': 50, 'max_depth': 15, 'min_samples_split': 2, 'criterion': 'gini'}
+Best: 0.8885 | Avg: 0.7980 | Best Params: {'n_estimators': 10, 'max_depth': 20, 'min_samples_split': 5, 'criterion': 'entropy'}
 --- Generation 4 ---
-Best: 0.9442 | Avg: 0.9423 | Best Params: {'n_estimators': 50, 'max_depth': 15, 'min_samples_split': 2, 'criterion': 'gini'}
+Best: 0.8885 | Avg: 0.8415 | Best Params: {'n_estimators': 10, 'max_depth': 20, 'min_samples_split': 5, 'criterion': 'entropy'}
 --- Generation 5 ---
-Best: 0.9442 | Avg: 0.9186 | Best Params: {'n_estimators': 50, 'max_depth': 15, 'min_samples_split': 2, 'criterion': 'gini'}</code></pre>
+Best: 0.9221 | Avg: 0.8888 | Best Params: {'n_estimators': 50, 'max_depth': 20, 'min_samples_split': 5, 'criterion': 'entropy'}</code></pre>
 </div>
 </div>
 <p>We can see that the initial generation has a pretty low average fitness score (0.6064), but as the models evolve into each subsequent generation and select for the better ‘genes’, the average fitness scores steadily increase until the average performance across all models within a generation is pretty much equal to the best performing model (0.9426).</p>
