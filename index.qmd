@@ -22,7 +22,7 @@ In this tutorial, I will show you how to 'evolve' hyperparameters like DNA seque
 Before we write any code, we need to establish our vocabulary. In a Genetic Algorithm, we map biological concepts directly to Python objects.
 
 | Genetic Term | Programming Definition |
-|:-----------------------------------|:-----------------------------------|
+|:---|:---|
 | **Individual** | A single model instance (e.g., a Random Forest) with specific hyperparameters. |
 | **Chromosome** | The dictionary of hyperparameters for that model (e.g., `{'max_depth': 10}`). |
 | **Gene** | A single hyperparameter and its value. |
@@ -210,7 +210,6 @@ for i in range(5):
     population = run_generation(population)
 ```
 
-
 We can see that the initial generation has a pretty low average fitness score (0.6064), but as the models evolve into each subsequent generation and select for the better 'genes', the average fitness scores steadily increase until the average performance across all models within a generation is pretty much equal to the best performing model (0.9426).
 
 We did end up with a well-performing model, but is this better than Scikit Learn's `RandomizedSearchCV`? Let's investigate!
@@ -275,8 +274,6 @@ plt.legend()
 plt.grid(True, alpha=0.3)
 plt.show()
 ```
-
-
 
 ## The Verdict: Does Evolution Work?
 
